@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html>
 
-<header>
-    <title>Teste de página</title>
-    <link rel="stylesheet" href="stlyle.css">
-    <meta name="author " content="a galera do grupo1">
-</header>
+<head> <!--Onde o usuário não vê -->
+    <title>Teste de página</title> <!-- Título -->
+    <link rel="stylesheet" href="stlyle.css"> <!-- Link da pasta do css -->
+    <meta name="author " content="a galera do grupo1"> <!-- Nome do autor da página-->
+</head>
 
-<body>
-    <main>
-        <h1>Cancelamento de perfil</h1>
+<body> <!-- Corpo -->
+    <main> <!-- O que é a tag main: O conteúdo dentro do elemento deve ser exclusivo do documento. -->
+        <h1>Cancelamento de perfil</h1> <!-- São usadas para definir títulos, só um h1 por página -->
 
-        <p> Entendemos que as preferências e necessidades dos assinantes podem mudar com o tempo, e estamos aqui para
+        <p> <!-- Paragrafo -->
+            Entendemos que as preferências e necessidades dos assinantes podem mudar com o tempo, e estamos aqui para
             garantir que sua experiência conosco seja sempre a mais positiva possível. Se, por algum motivo, você
-            decidir reconsiderar sua inscrição no futuro, saiba que será sempre bem-vindo(a) de volta.</p>
-    <br>
+            decidir reconsiderar sua inscrição no futuro, saiba que será sempre bem-vindo(a) de volta.
+        </p>
+    <br> <!-- Quebra de linha -->
     
-    <form>
-        <label>Conte-nos o que levou ao seu cancelamento:</label>
-        <textarea placeholder="Digite sua justificativa" minlength="30" maxlength="50"></textarea>
+    <form> <!-- Formulário -->
+       <label for="comment">Conte-nos o que levou ao seu cancelamento:</label>
+       <!-- Textarea é a formação de caixas, podendo aumentá-las. Placeholder é um atributo que escreve uma mensagem dentro da caixa 
+            Os atributos "minlength" e "maxlength" especificam o comprimento mínimo e máximo, respectivamente, que o texto pode ter. -->
+        <textarea placeholder="Digite sua justificativa" minlength="" maxlength="300"></textarea>
      
         <p>Tem certeza que quer cancelar o perfil?</p>
-        <button>Cancelar</button>
+        <button type="submit">Cancelar</button> <!-- Botão -->
     </form>
-    </main>
+
+    </main> <!-- Tag de fechamento -->
+     
 
 </body>
 

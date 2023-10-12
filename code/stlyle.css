@@ -1,15 +1,26 @@
 body {
+    /* Define o plano de fundo do elemento */
     background: #BBF0F1;
+    /* O gradiente começa da esquerda e se estende para a direita, ele começa com a cor #BBF0F1 */
     background: -moz-linear-gradient(left, #BBF0F1 0%, #E4E4E4 61%, #F3D7A0 100%);
+    /* É a repetição necessária para a cor posterior */
     background: -webkit-linear-gradient(left, #BBF0F1 0%, #E4E4E4 61%, #F3D7A0 100%);
+    /* O gradiente começa à esquerda (daí "to right") e segue as mesmas cores e porcentagens de mudança de cor definidas anteriormente. */
     background: linear-gradient(to right, #BBF0F1 0%, #E4E4E4 61%, #F3D7A0 100%);
+    /* Cor do texto */
     color: rgb(0, 0, 0);
 }
 
+/*
+O uso de um prefixo como -webkit- ou -moz- indica que a propriedade é uma extensão específica para navegadores WebKit ou o Mozilla Firefox.
+Isso significa que a propriedade é compatível com esses navegadores, mas pode não ser suportada em outros navegadores.
+*/
 
+
+/* O asterisco (*) é um seletor universal em CSS. Ele seleciona todos os elementos HTML na página. */
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0; /* define a margem de todos os elementos como zero do arq html */
+    padding: 0; /* define o preenchimento de todos os elementos como zero. O preenchimento é o espaço interno de um elemento HTML.  */
 }
 
 main {
