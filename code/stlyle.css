@@ -43,30 +43,31 @@ form {
 }
 
 
-
+/* Através da caixa de texto podemos permitir ao usuário digitar textos maiores, como uma mensagem em um formulário de contato, por exemplo. */
 textarea {
-    height: 120px;
-    margin: 30px 0 25px 0;
-    padding: 10px;
-    font-size: 18px;
+    height: 120px; /* Isso determina a altura da área de texto em que o usuário pode digitar. */
+    margin: 30px 0 25px 0; /*  Define as margens do elemento <textarea. Os valores 30px na margem superior, 0 na margem direita, 25px na margem inferior e 0 na margem esquerda. Isso cria espaços entre o <textarea> e os elementos circundantes, com margens maiores acima e abaixo. */
+    padding: 10px; /* Define o preenchimento interno dos elementos <textarea> como 10 pixels. O preenchimento é o espaço interno dentro da área de texto onde o texto é inserido. */
+    font-size: 18px; /* Isso determina o tamanho do texto dentro da área de texto. */
 }
 
+/* Estilização do botão */
 button {
-    background: #00318b;
-    border: none;
-    height: 32px;
-    font-family: sans-serif;
-    font-size: 16px;
-    color: #fff;
+    background: #00318b;  /* Define a cor de fundo dos botões */
+    border: none; /* Remove as bordas. Os botões não terão uma borda visível ao seu redor. */
+    height: 32px; /* Isso determina a altura dos botões. */
+    font-family: sans-serif; /* Define a família de fontes dos botões como "sans-serif". Isso indica que a fonte utilizada para os botões será uma fonte genérica do tipo "sans-serif", como Arial ou Helvetica. */
+    font-size: 16px; /*  Isso determina o tamanho do texto dentro dos botões. */
+    color: #fff; /* Define a cor do texto dentro dos botões. */ 
 }
 
 p {
-    margin: 20px 0 0 0;
-    line-height: 30px;
-    font-family: sans-serif;
+    margin: 20px 0 0 0; /* Define as margens do parágrafo. Os valores significam o seguinte: 20 pixels na margem superior, 0 na margem direita, 0 na margem inferior e 0 na margem esquerda. Isso cria um espaço de 20 pixels acima do parágrafo. */
+    line-height: 30px; /* Isso determina o espaço entre as linhas de texto dentro do parágrafo.  */
+    font-family: sans-serif; /* Isso indica que a fonte utilizada para o texto do parágrafo. */
 }
 
 h1 {
-    font-family: sans-serif; /* Fonte d */
-    color: #00318b;
+    font-family: sans-serif; /* Isso indica que a fonte utilizada para o texto do parágrafo */
+    color: #00318b; /* Define a cor do texto dentro dos elementos <h1> como #00318b, que é uma tonalidade de azul. */ 
 }
