@@ -23,19 +23,23 @@ Isso significa que a propriedade é compatível com esses navegadores, mas pode 
     padding: 0; /* define o preenchimento de todos os elementos como zero. O preenchimento é o espaço interno de um elemento HTML.  */
 }
 
+
+/* definindo estilos para o elemento HTML <main> */
 main {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 430px;
-    margin: 30px auto;
-    height: 100%;
+    display: flex; /* Isso significa que o elemento <main> se comportará como um contêiner flexível. */
+    flex-direction: column; /* Define a direção principal de layout dos filhos do elemento <main> como "column" (coluna). Isso indica que os filhos serão empilhados verticalmente, um em cima do outro, em vez de serem dispostos horizontalmente. */
+    width: 100%; /* Define a largura do elemento <main> como 100% da largura do contêiner pai. Isso fará com que o elemento <main> se estenda por toda a largura do contêiner pai. */
+    max-width: 430px; /* Isso garante que, mesmo que a largura do contêiner pai seja maior do que 430 pixels, o elemento <main> não ficará mais largo do que esse valor. */
+    margin: 30px auto; /* Define uma margem de 30 pixels na parte superior e inferior e "auto" nas margens esquerda e direita. */
+    height: 100%; /* Define a altura do elemento <main> como 100% da altura do contêiner pai. Isso fará com que o elemento <main> se estenda por toda a altura do contêiner pai */
 }
 
+/* estilização do formulário */
+
 form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    display: flex; /* Isso significa que os elementos dentro do formulário serão dispostos em um layout flexível. */
+    flex-direction: column; /* A propriedade flex-direction especifica a direção principal de layout dos elementos filhos do formulário. Neste caso, column indica que os elementos filhos (como campos de entrada, rótulos, botões, etc.) serão empilhados verticalmente, um em cima do outro, em uma coluna. */
+    width: 100%; /* Define a largura do formulário como 100% da largura do seu contêiner pai. Isso fará com que o formulário se estenda por toda a largura do contêiner pai. */
 }
 
 textarea {
@@ -61,6 +65,6 @@ p {
 }
 
 h1 {
-    font-family: sans-serif;
+    font-family: sans-serif; /* Fonte d */
     color: #00318b;
 }
