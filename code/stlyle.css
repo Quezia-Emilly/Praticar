@@ -34,6 +34,11 @@ main {
     height: 100%; /* Define a altura do elemento <main> como 100% da altura do contêiner pai. Isso fará com que o elemento <main> se estenda por toda a altura do contêiner pai */
 }
 
+label {
+    font-family: sans-serif;
+}
+
+
 /* estilização do formulário */
 
 form {
