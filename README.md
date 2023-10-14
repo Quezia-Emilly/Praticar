@@ -1,2 +1,2 @@
 # Praticar
-Repositório para praticar
+Repositório para praticar estudos e exercícios 
