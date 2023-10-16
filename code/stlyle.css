@@ -60,7 +60,9 @@ textarea {
 button {
     background: #00318b;  /* Define a cor de fundo dos botões */
     border: none; /* Remove as bordas. Os botões não terão uma borda visível ao seu redor. */
+    width: 450px;
     height: 32px; /* Isso determina a altura dos botões. */
+    border-radius: 80px; /*Arrendoda as bordas*/
     font-family: sans-serif; /* Define a família de fontes dos botões como "sans-serif". Isso indica que a fonte utilizada para os botões será uma fonte genérica do tipo "sans-serif", como Arial ou Helvetica. */
     font-size: 16px; /*  Isso determina o tamanho do texto dentro dos botões. */
     color: #fff; /* Define a cor do texto dentro dos botões. */ 
