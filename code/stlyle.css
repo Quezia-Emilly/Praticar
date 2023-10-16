@@ -42,7 +42,7 @@ label {
 /* estilização do formulário */
 
 form {
-    display: flex; /* Isso significa que os elementos dentro do formulário serão dispostos em um layout flexível. */
+    display: flex; /* Isso significa quse os elementos dentro do formulário serão dispostos em um layout flexível. */
     flex-direction: column; /* A propriedade flex-direction especifica a direção principal de layout dos elementos filhos do formulário. Neste caso, column indica que os elementos filhos (como campos de entrada, rótulos, botões, etc.) serão empilhados verticalmente, um em cima do outro, em uma coluna. */
     width: 100%; /* Define a largura do formulário como 100% da largura do seu contêiner pai. Isso fará com que o formulário se estenda por toda a largura do contêiner pai. */
 }
