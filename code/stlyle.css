@@ -1,37 +1,26 @@
 body {
-    /* Define o plano de fundo do elemento */
     background: #BBF0F1;
-    /* O gradiente começa da esquerda e se estende para a direita, ele começa com a cor #BBF0F1 */
     background: -moz-linear-gradient(left, #BBF0F1 0%, #E4E4E4 61%, #F3D7A0 100%);
-    /* É a repetição necessária para a cor posterior */
     background: -webkit-linear-gradient(left, #BBF0F1 0%, #E4E4E4 61%, #F3D7A0 100%);
-    /* O gradiente começa à esquerda (daí "to right") e segue as mesmas cores e porcentagens de mudança de cor definidas anteriormente. */
     background: linear-gradient(to right, #BBF0F1 0%, #E4E4E4 61%, #F3D7A0 100%);
-    /* Cor do texto */
     color: rgb(0, 0, 0);
 }
 
-/*
-O uso de um prefixo como -webkit- ou -moz- indica que a propriedade é uma extensão específica para navegadores WebKit ou o Mozilla Firefox.
-Isso significa que a propriedade é compatível com esses navegadores, mas pode não ser suportada em outros navegadores.
-*/
 
-
-/* O asterisco (*) é um seletor universal em CSS. Ele seleciona todos os elementos HTML na página. */
 * {
-    margin: 0; /* define a margem de todos os elementos como zero do arq html */
-    padding: 0; /* define o preenchimento de todos os elementos como zero. O preenchimento é o espaço interno de um elemento HTML.  */
+    margin: 0;
+    padding: 0; 
 }
 
 
 /* definindo estilos para o elemento HTML <main> */
 main {
-    display: flex; /* Isso significa que o elemento <main> se comportará como um contêiner flexível. */
-    flex-direction: column; /* Define a direção principal de layout dos filhos do elemento <main> como "column" (coluna). Isso indica que os filhos serão empilhados verticalmente, um em cima do outro, em vez de serem dispostos horizontalmente. */
-    width: 100%; /* Define a largura do elemento <main> como 100% da largura do contêiner pai. Isso fará com que o elemento <main> se estenda por toda a largura do contêiner pai. */
-    max-width: 430px; /* Isso garante que, mesmo que a largura do contêiner pai seja maior do que 430 pixels, o elemento <main> não ficará mais largo do que esse valor. */
-    margin: 30px auto; /* Define uma margem de 30 pixels na parte superior e inferior e "auto" nas margens esquerda e direita. */
-    height: 100%; /* Define a altura do elemento <main> como 100% da altura do contêiner pai. Isso fará com que o elemento <main> se estenda por toda a altura do contêiner pai */
+    display: flex; 
+    flex-direction: column; 
+    width: 100%; 
+    max-width: 430px; 
+    margin: 30px auto;
+    height: 100%; 
 }
 
 label {
@@ -42,39 +31,39 @@ label {
 /* estilização do formulário */
 
 form {
-    display: flex; /* Isso significa quse os elementos dentro do formulário serão dispostos em um layout flexível. */
-    flex-direction: column; /* A propriedade flex-direction especifica a direção principal de layout dos elementos filhos do formulário. Neste caso, column indica que os elementos filhos (como campos de entrada, rótulos, botões, etc.) serão empilhados verticalmente, um em cima do outro, em uma coluna. */
-    width: 100%; /* Define a largura do formulário como 100% da largura do seu contêiner pai. Isso fará com que o formulário se estenda por toda a largura do contêiner pai. */
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
 }
 
 
-/* Através da caixa de texto podemos permitir ao usuário digitar textos maiores, como uma mensagem em um formulário de contato, por exemplo. */
+
 textarea {
-    height: 120px; /* Isso determina a altura da área de texto em que o usuário pode digitar. */
-    margin: 30px 0 25px 0; /*  Define as margens do elemento <textarea. Os valores 30px na margem superior, 0 na margem direita, 25px na margem inferior e 0 na margem esquerda. Isso cria espaços entre o <textarea> e os elementos circundantes, com margens maiores acima e abaixo. */
-    padding: 10px; /* Define o preenchimento interno dos elementos <textarea> como 10 pixels. O preenchimento é o espaço interno dentro da área de texto onde o texto é inserido. */
-    font-size: 18px; /* Isso determina o tamanho do texto dentro da área de texto. */
+    height: 120px; 
+    margin: 30px 0 25px 0; 
+    padding: 10px;
+    font-size: 18px; 
 }
 
 /* Estilização do botão */
 button {
-    background: #00318b;  /* Define a cor de fundo dos botões */
-    border: none; /* Remove as bordas. Os botões não terão uma borda visível ao seu redor. */
+    background: #00318b;  
+    border: none; 
     width: 450px;
-    height: 32px; /* Isso determina a altura dos botões. */
-    border-radius: 80px; /*Arrendoda as bordas*/
-    font-family: sans-serif; /* Define a família de fontes dos botões como "sans-serif". Isso indica que a fonte utilizada para os botões será uma fonte genérica do tipo "sans-serif", como Arial ou Helvetica. */
-    font-size: 16px; /*  Isso determina o tamanho do texto dentro dos botões. */
-    color: #fff; /* Define a cor do texto dentro dos botões. */ 
+    height: 32px; 
+    border-radius: 80px; 
+    font-family: sans-serif;
+    font-size: 16px; 
+    color: #fff;
 }
 
 p {
-    margin: 20px 0 0 0; /* Define as margens do parágrafo. Os valores significam o seguinte: 20 pixels na margem superior, 0 na margem direita, 0 na margem inferior e 0 na margem esquerda. Isso cria um espaço de 20 pixels acima do parágrafo. */
-    line-height: 30px; /* Isso determina o espaço entre as linhas de texto dentro do parágrafo.  */
-    font-family: sans-serif; /* Isso indica que a fonte utilizada para o texto do parágrafo. */
+    margin: 20px 0 0 0; 
+    line-height: 30px; 
+    font-family: sans-serif; 
 }
 
 h1 {
-    font-family: sans-serif; /* Isso indica que a fonte utilizada para o texto do parágrafo */
-    color: #00318b; /* Define a cor do texto dentro dos elementos <h1> como #00318b, que é uma tonalidade de azul. */ 
+    font-family: sans-serif;
+    color: #00318b; 
 }
